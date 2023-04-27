@@ -1,0 +1,43 @@
+﻿<Window x:Class="BulkFileCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BulkFileCreator"
+        mc:Ignorable="d"
+        Title="Bulk File Creator" Height="500" Width="320"
+		Background="SlateGray"
+		Foreground="White"
+		ResizeMode="NoResize">
+	<Grid>
+		<Button Name="CreateFilesButton" Content="Create Files" HorizontalAlignment="Center" Margin="0,357,0,0"  VerticalAlignment="Top" Click="CreateFiles" FontFamily="Roboto" FontSize="10" FontWeight="SemiBold" Height="20"/>
+		<Button Name="SetPathButton"     Content="Set Path"     HorizontalAlignment="Left" Margin="30,0,0,10"    VerticalAlignment="Bottom" Click="SetPath"  FontFamily="Roboto" FontSize="10" FontWeight="SemiBold" Height="20" Width="45"/>
+
+		<Label Content="File 1"                                 HorizontalAlignment="Left" Margin="23,45,0,0"    VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 2"                                 HorizontalAlignment="Left" Margin="23,75,0,0"    VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 3"                                 HorizontalAlignment="Left" Margin="23,105,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 4"                                 HorizontalAlignment="Left" Margin="23,135,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 5"                                 HorizontalAlignment="Left" Margin="23,165,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 6"                                 HorizontalAlignment="Left" Margin="23,195,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 7"                                 HorizontalAlignment="Left" Margin="23,225,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 8"                                 HorizontalAlignment="Left" Margin="23,255,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 9"                                 HorizontalAlignment="Left" Margin="23,285,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+		<Label Content="File 10"                                HorizontalAlignment="Left" Margin="23,315,0,0"   VerticalAlignment="Top" FontFamily="Roboto" FontSize="12"/>
+
+		<TextBox Name="TextBox1"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,50,0,0"    VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox2"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,80,0,0"    VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox3"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,110,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox4"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,140,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox5"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,170,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox6"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,200,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox7"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,230,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox8"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,260,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox9"  TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,290,0,0"   VerticalAlignment="Top" Width="200"/>
+		<TextBox Name="TextBox10" TextWrapping="Wrap"           HorizontalAlignment="Left" Margin="67,320,0,0"   VerticalAlignment="Top" Width="200"/>
+
+		<Label Content="File Names"                             HorizontalAlignment="Center" Margin="0,12,0,0"   VerticalAlignment="Top" FontWeight="SemiBold" FontSize="17" FontFamily="Roboto"/>
+		<Label Name="MessageBox" Content=""                     HorizontalAlignment="Center" Margin="0,380,0,0"   VerticalAlignment="Top"/>
+		<Label Name="ValidationBox" Content=""                  HorizontalAlignment="Center" Margin="0,400,0,0"   VerticalAlignment="Top" Foreground="DarkGreen"/>
+		<TextBlock Name="PathLabel" Text="No Path Set"          HorizontalAlignment="Left" Margin="80,433,0,0" VerticalAlignment="Top" TextWrapping="NoWrap" TextTrimming="CharacterEllipsis" Foreground="Black" MaxWidth="190"/>
+	</Grid>
+</Window>
