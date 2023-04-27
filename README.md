@@ -10,3 +10,5 @@ The idea first came to me when thinking about Object Oriented design in programm
 or pages.
 
 3. Conversion to C++ - The tool is currently written with Windows Presentation Forms in C# and I want to port it over to C++ for possible optimizations and utilize a much smaller library for developing the graphical user interface.
+
+4. Additional Platforms - The initial version is specifically built for Windows and will not work on other operating systems. I wanted to reduce the number of additional dependencies in the project and so I have not added in any third party libraries or files that would allow for me to build a cross platform version of the application. This means that I will need to write versions of the tool specifically for Linux and MacOS.
